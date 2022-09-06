@@ -40,7 +40,7 @@ public class SliderScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // Slider Moving Part
         if (isForward && !stopMoving)
